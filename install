@@ -2,8 +2,7 @@
 //no vs code abra o terminal
 
 pip install virtualenv
-cd:\
-
+cd c:\
 virtualenv mypython
 C:\mypython\Scripts\activate
 pip install pytest
