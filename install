@@ -1,0 +1,13 @@
+pip install virtualenv
+cd:\
+virtualenv mypython
+C:\mypython\Scripts\activate
+pip install pytest
+
+
+// No vs code
+{
+    "python.pythonPath": "C:/mypython/Scripts/python",
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.pyTestPath": "C:/mypython/Scripts/py.test"
+}
