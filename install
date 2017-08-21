@@ -1,11 +1,16 @@
+
+//no vs code abra o terminal
+
 pip install virtualenv
 cd:\
+
 virtualenv mypython
 C:\mypython\Scripts\activate
 pip install pytest
 
 
-// No vs code
+// instalar o pylint
+// No vs code preferencias
 {
     "python.pythonPath": "C:/mypython/Scripts/python",
     "python.unitTest.pyTestEnabled": true,
