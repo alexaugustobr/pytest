@@ -6,6 +6,7 @@ cd c:\
 virtualenv mypython
 C:\mypython\Scripts\activate
 pip install pytest
+pip install pylint
 
 
 // instalar o pylint
