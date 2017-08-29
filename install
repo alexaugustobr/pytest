@@ -17,3 +17,8 @@ pip install pylint
     "python.unitTest.pyTestEnabled": true,
     "python.unitTest.pyTestPath": "C:/mypython/Scripts/py.test"
 }
+
+// para executar testes nos seus arquivos
+// execute pytest no terminal
+// pytest test_arquivo
+// o arquivo tem q possuir test_ no nome
