@@ -1,3 +1,4 @@
+
 //no vs code instale o complemento do Python
 
 //no vs code abra o terminal
@@ -6,14 +7,23 @@ pip install virtualenv
 cd c:\
 virtualenv mypython
 C:\mypython\Scripts\activate
+
 pip install pytest
 pip install pylint
 
 
-// instalar o pylint
 // No vs code preferencias
 {
     "python.pythonPath": "C:/mypython/Scripts/python",
     "python.unitTest.pyTestEnabled": true,
     "python.unitTest.pyTestPath": "C:/mypython/Scripts/py.test"
 }
+
+// pytest
+
+// para executar o pytest no seu vs code, 
+// nomeie seu projeto iniciando com test_, exemplo test_ex1.py.
+// dentro do arquivo crie uma funcao com o nome iniciando com test_
+// dentro da funcao chame o metodo assert e monte seu teste
+// execute o comando no terminal:  pytest nomedoarquivo  ,exemplo:  pytest test_ex1.py
+//
