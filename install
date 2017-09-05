@@ -27,3 +27,7 @@ pip install pylint
 // dentro da funcao chame o metodo assert e monte seu teste
 // execute o comando no terminal:  pytest nomedoarquivo  ,exemplo:  pytest test_ex1.py
 //
+
+
+git config --global user.name yourname
+git config --global user.email youremail@address.com
